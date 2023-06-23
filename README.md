@@ -1,2 +1,1 @@
 # slozhno-sosredotochitsya
-
