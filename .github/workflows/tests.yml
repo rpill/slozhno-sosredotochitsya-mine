@@ -9,4 +9,4 @@ jobs:
       - name: Tests
         uses: rpill/test-projects-yp@main
         with:
-          project: 'asd'
+          project: 'slozhno-sosredotochitsya'
