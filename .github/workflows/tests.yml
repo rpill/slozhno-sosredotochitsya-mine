@@ -10,3 +10,4 @@ jobs:
         uses: rpill/test-projects-yp@main
         with:
           project: 'slozhno-sosredotochitsya'
+          verbose: false
