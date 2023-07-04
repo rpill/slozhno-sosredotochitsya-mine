@@ -7,6 +7,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Tests
-        uses: Yandex-Practicum/test-project-action@latest
+        uses: Yandex-Practicum/test-project-action@v1
         with:
           project: 'slozhno-sosredotochitsya'
