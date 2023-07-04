@@ -7,7 +7,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Tests
-        uses: rpill/test-projects-yp@main
+        uses: Yandex-Practicum/test-project-action@release
         with:
           project: 'slozhno-sosredotochitsya'
-          verbose: false
