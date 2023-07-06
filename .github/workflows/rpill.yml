@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Tests
+        uses: rpill/test-projects-yp@main
+        with:
+          project: 'slozhno-sosredotochitsya'
